@@ -21,7 +21,7 @@ register_handlers(dp, bot, db, settings)
 
 
 async def main():
-    await db = create_database(settings.database_path)
+    db = await create_database(settings.database_path) 
     await db.init()
 
     if settings.webhook_url:
