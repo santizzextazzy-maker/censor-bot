@@ -1,2 +1,0 @@
-# Версия репозитория, проверенная командой MAX.
-maxapi[webhook] @ git+https://github.com/max-messenger/max-botapi-python.git
